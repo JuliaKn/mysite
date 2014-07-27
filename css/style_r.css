@@ -24,15 +24,35 @@ h1 {
 	margin: 0 200px 10px 10px;
 	background-image: url(../image/head.jpg);
 	background-repeat: repeat-x;
+}
 
+#header div {
+	height: 170px;
+	background-image: url(../image/head_l.jpg);
+	background-repeat: no-repeat;
+}
+
+#header div div {
+	height: 170px;
+	background: url(../image/head_r.jpg) no-repeat;
+	background-position: 100% 0;
 }
 
 #sidebar {
-	height: 30px;
+	height: 43px;
 	margin: 0 200px 10px 10px;
 	background-image: url(../image/sb.jpg);
 	background-repeat: repeat-x;
+}
+#sidebar div {
+	height: 43px;
+	background: url(../image/sb_l.jpg) no-repeat;
+}
 
+#sidebar div div {
+	height: 43px;
+	background: url(../image/sb_r.jpg) no-repeat;
+	background-position: 100% 0;
 }
 
 #contant {
@@ -43,11 +63,22 @@ h1 {
 
 #footer {
 
-	height: 60px;
+	height: 56px;
 	margin: 0 200px 10px 10px;
 	background-color: #FFFFFF;
 	background-image: url(../image/foot.jpg);
 	background-repeat: repeat-x;
+}
+
+#footer div {
+	height: 56px;
+	background: url(../image/foot_l.jpg) no-repeat;
+}
+
+#footer div div {
+	height: 56px;
+	background: url(../image/foot_r.jpg) no-repeat;
+	background-position: 100% 0;
 }
 
 #head_c {
