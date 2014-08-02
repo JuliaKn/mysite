@@ -15,13 +15,20 @@ h1 {
 	font-size: 50px;
 	font-style: italic;
 	text-align: center;
-	color: #FFFFFF;
+	color: #9E180F;
+}
+
+p{
+	
+	text-indent: 30px;
+	padding: 0 15px;
+	text-align: justify;
 
 }
 
 #header {
 	height: 170px;
-	margin: 0 200px 10px 10px;
+	margin: 0 10px 10px 10px;
 	background-image: url(../image/head.jpg);
 	background-repeat: repeat-x;
 }
@@ -34,13 +41,21 @@ h1 {
 
 #header div div {
 	height: 170px;
+	
+	background: url(../image/oboi11.jpg) no-repeat;
+	background-position: 97% 5px;
+	
+}
+
+#header div div div{
+	height: 170px;
 	background: url(../image/head_r.jpg) no-repeat;
 	background-position: 100% 0;
 }
 
 #sidebar {
 	height: 43px;
-	margin: 0 200px 10px 10px;
+	margin: 0 10px 10px 10px;
 	background-image: url(../image/sb.jpg);
 	background-repeat: repeat-x;
 }
@@ -57,14 +72,14 @@ h1 {
 
 #contant {
 	min-height: 400px;
-	margin: 0 200px 10px 10px;
+	margin: 0 10px 10px 200px;
 	background-color: #FFFFFF;
 }
 
 #footer {
 
 	height: 56px;
-	margin: 0 200px 10px 10px;
+	margin: 0 10px 10px 10px;
 	background-color: #FFFFFF;
 	background-image: url(../image/foot.jpg);
 	background-repeat: repeat-x;
@@ -85,4 +100,15 @@ h1 {
 color: #FFFFFF;
 font-size: 20px;
 padding-left: 10px;
+}
+
+#podzagol {
+	color:#9E180F;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+#abzats {
+	padding: 10px;
 }
