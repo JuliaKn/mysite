@@ -26,6 +26,21 @@ p{
 
 }
 
+ul {
+	
+	margin: 0 30px 15px 15px;
+
+}
+
+ul li {
+	text-indent: 50px;
+	padding: 5px 15px;
+	text-align: justify;
+	font-family: Tahoma, Arial, helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
 #header {
 	height: 170px;
 	margin: 0 10px 10px 10px;
