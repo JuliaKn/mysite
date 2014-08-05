@@ -37,8 +37,9 @@ ul li {
 	padding: 5px 15px;
 	text-align: justify;
 	font-family: Tahoma, Arial, helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: #000000;
+	font-weight: normal;
 }
 
 #header {
@@ -57,7 +58,7 @@ ul li {
 #header div div {
 	height: 170px;
 	
-	background: url(../image/oboi11.jpg) no-repeat;
+	background: url(../image/oboi20.jpg) no-repeat;
 	background-position: 97% 5px;
 	
 }
@@ -87,8 +88,31 @@ ul li {
 
 #contant {
 	min-height: 400px;
-	margin: 0 10px 10px 200px;
+	margin: 0 10px 10px 250px;
 	background-color: #FFFFFF;
+}
+
+#example1 {
+	background-color: #FFEDAE;
+	margin: 10px 15px;
+}
+
+#example2 {
+	background-color: #95281D;
+	color:#FFFFFF;
+	margin: 10px 15px;
+	font-size: 30px;
+	font-style: italic;
+
+}
+
+.main_table {
+	width: 100%;
+}
+
+.main_table td {
+	padding: 25px 15px 25px 15px;
+	margin: 10px 5px;
 }
 
 #footer {
