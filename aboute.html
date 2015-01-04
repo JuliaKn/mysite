@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="css/style_r.css" type="text/css" rel="stylesheet">
+		<link href="css/forms.css" type="text/css" rel="stylesheet">
+		<title>Furnish of premises</title>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+		<script type="text/javascript">
+ 			function initialize() {
+ 			var latlng = new google.maps.LatLng(54.972146,82.903786,17);
+ 			var settings = {
+ 				zoom: 15,
+ 				center: latlng,
+ 				mapTypeControl: true,
+				mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+ 				navigationControl: true,
+ 				navigationControolOptions: {style: google.maps.NavigationControlStyle.SMALL},
+ 				mapTypeId: google.maps.MapTypeId.ROADMAP
+ 			};
+
+ 			var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
+			var companyPos = new google.maps.LatLng(54.972146,82.903786,17);
+			var companyMarker = new google.maps.Marker({
+				position: companyPos,
+				map: map,
+				title:"Some title"
+			});
+
+ 			}
+		</script>
+
+
+	</head>
+
+	<body onload="initialize()">
+			<div id="wrapper">
+				<div id="header"><div><div><div>
+					<h1>Sticker Wallpaper</h1>
+					<p id="head_c">Contact. tel: XXX-XXX-XXXX</p>
+				</div></div></div></div>
+
+				<div id="sidebar"><div><div>
+					<ul>
+						<li class="a1"><a href="file:///D:/testingServer/home/reclam.loc/www/index.html"<span>Main</span></a></li>
+						<li class="a1"><a href="file:///D:/testingServer/home/reclam.loc/www/aboute.html"<span>Aboute us</span></a></li>
+						<li class="a1"><a href="file:///D:/testingServer/home/reclam.loc/www/photo_ga.html"<span>Photo-galery</span></a></li>
+					</ul>
+
+				</div></div></div>
+
+				<div id="contant"><div><div>
+					<img src="image/box1.jpg" width="48" hight="39" align="left" alt="brush" id='abzats'>
+					<p id="podzagol">Our contacts</p>
+					<table cellpadding="0" cellspacing="0" class="main_table">
+						<tr>
+							<td><p>Unknown-city. XX West XXth Street</p>
+								<p>tel: XXX-XX-XXXX</p>
+								<p>e-mail: aaa@yandex.com</p></td>
+							<td><p>We are working everyday at 8:00am to 7:00pm</p></td>
+							<td><img src="image/clock.jpg" width="150" hight="150" align="left" alt="brush" id='abzats'></td>
+						</tr>
+					</table>
+					<p></p>
+				</div></div>
+
+
+			<div id="example1">
+					<table cellpadding="0" cellspacing="0" class="main_table">
+					<tr>
+						
+						<td><div id="map_canvas" style="width:448px; height:317px"></div></td>
+						<!--<td><img width="448" height="317" alt="" src="image/map.jpg"/></td>-->
+						<td>We will be happy to help the customers to fill yourself life with comfort.</td>
+				</tr>
+				</table>
+				</div>
+
+
+					<img src="image/box1.jpg" width="48" hight="39" align="left" alt="brush" id='abzats'>
+					<p id="podzagol">Feedback</p>
+					<!--<p>Здесь будет форма для ввода текста для обратной связи</p>-->
+					<form  action=# method="post" name="feedback" class="blocks">
+						<fieldset class="feed">
+						<p><label for="name">Name:</label><input type="text" name="name" class="text" id="name"></p>
+						<p><label for="comp">Company:</label><input type="text" name="company" class="text" id="comp"></p>
+						<p><label for="email">Email:</label><input type="text" name="email" class="text" id="email"></p>
+						<p><label for="phone">Phone:</label><input type="text" name="phone" class="text" id="phone"></p>
+						<p class="area"><label  for="message">Message:</label><textarea class="textarea" name="message" id="message"></textarea></p>
+
+						<p><input type="image" name="imageButton" src="image/send.jpg" class="btn"></p>
+						</fieldset>
+
+					</form>
+ 	
+			<div id="footer"><div><div>
+					<ul>
+						<li class="a1"><a href="file:///D:/testingServer/home/reclam.loc/www/index.html"<span>Main</span></a></li>
+						<li class="a1"><a href="file:///D:/testingServer/home/reclam.loc/www/aboute.html"<span>Aboute us</span></a></li>
+						<li class="a1"><a href="file:///D:/testingServer/home/reclam.loc/www/photo_ga.html"<span>Photo-galery</span></a></li>
+					</ul>
+
+			</div></div></div>
+		</div>
+
+	</body>
+</html>

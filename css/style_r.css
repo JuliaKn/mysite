@@ -8,13 +8,13 @@ body {
 
 h1 {
 
-	padding: 0;
+	padding-left: 30px;
 	margin: 10px;
 	border: 0 solid;
 	font-family: 'Verdana';
-	font-size: 50px;
+	font-size: 55px;
 	font-style: italic;
-	text-align: center;
+	text-align: left;
 	color: #9E180F;
 }
 
@@ -81,20 +81,27 @@ ul li {
 	background-repeat: repeat-x;
 }
 #sidebar span {
-	color: #FFFFFF;
+	color: #DCEDE8;
 	width: 110;
 	font: Verdana;
-	font-size: 23px;
+	font-size: 20px;
 }
 
 #sidebar ul {
-	color: #AC2217;
 	margin: auto;
-	padding-left: 250px;
+	padding-left: 300px;
+	list-style-type: none;
 }
 
 #sidebar li{
 	float: left;
+}
+#sidebar a{
+	color: #DCEDE8;
+	width: 110;
+	font: Verdana;
+	font-size: 20px;
+
 }
 
 #sidebar div {
@@ -108,6 +115,13 @@ ul li {
 	background-position: 100% 0;
 }
 
+a {
+	font-family: Tahoma, Arial, helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+
+}
+
 #contant {
 	min-height: 400px;
 	margin: 0 0 10px 0;
@@ -117,6 +131,7 @@ ul li {
 #example1 {
 	background-color: #FFEDAE;
 	margin: 10px 15px;
+	padding: 0;
 }
 
 #example2 {
@@ -162,6 +177,28 @@ ul li {
 	background: url(../image/foot_r.jpg) no-repeat;
 	background-position: 100% 0;
 }
+#footer span {
+	color: #DCEDE8;
+	width: 110;
+	font: Verdana;
+	font-size: 20px;
+}
+#footer ul {
+	margin: auto;
+	padding-top: 10px;
+	padding-left: 300px;
+	list-style-type: none;
+}
+
+#footer li{
+	float: left;
+}
+#footer a{
+	color: #DCEDE8;
+	width: 110;
+	font: Verdana;
+	font-size: 20px;
+}
 
 #head_c {
 color: #FFFFFF;
@@ -174,8 +211,30 @@ padding-left: 10px;
 	font-size: 20px;
 	font-weight: bold;
 	padding-top: 20px;
+	margin-bottom: 0;
 }
 
 #abzats {
 	padding: 10px;
+}
+
+.hovergallery img{
+-webkit-transform:scale(0.8); /*Webkit: уменьшаем размер до 0.8*/
+-moz-transform:scale(0.8); /*Mozilla: масштабирование*/
+-o-transform:scale(0.8); /*Opera: масштабирование*/
+-webkit-transition-duration: 0.5s; /*Webkit: длительность анимации*/
+-moz-transition-duration: 0.5s; /*Mozilla: длительность анимации*/
+-o-transition-duration: 0.5s; /*Opera: длительность анимации*/
+opacity: 0.7; /*Начальная прозрачность изображений*/
+margin: 0 10px 5px 0; /*Интервалы между изображениями*/
+}
+
+.hovergallery img:hover{
+-webkit-transform:scale(1.2); /*Webkit: увеличиваем размер до 1.2x*/
+-moz-transform:scale(1.2); /*Mozilla: масштабирование*/
+-o-transform:scale(1.2); /*Opera: масштабирование*/
+box-shadow:0px 0px 30px gray; /*CSS3 тени: 30px размытая тень вокруг всего изображения*/
+-webkit-box-shadow:0px 0px 30px gray; /*Webkit: тени*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla: тени*/
+opacity: 1;
 }

@@ -1,0 +1,60 @@
+fieldset {
+	position: relative;
+	margin: 25px 100px 25px 100px;
+	border:1px solid #ddd;
+	color:#333;
+
+}
+
+.btn {
+display:block;
+float:left;
+height:35px;
+line-height:31px;
+margin-left: 153px;
+outline:none;
+margin-bottom: 15px;
+}
+
+.text,
+.textarea {
+padding:5px 10px;
+height:27px;
+border:1px solid #ddd;
+color:#333;
+background:url(../image/bginput.jpg) repeat-x bottom #fff;
+position:relative;
+margin-left: 5px;
+}
+
+.text {
+	width: 220px;
+}
+
+.textarea {
+	width: 400px;
+	height: 100px;
+}
+
+.blocks label {
+float:left;
+width: 120px;
+line-height:37px;
+text-align:right;
+margin-right:0;
+margin-bottom: 15px;
+font-weight:bold;
+/*color:#666;
+/*border: 1px solid;*/
+}
+
+/* CSS3 */
+
+.text,
+.textarea,
+.blocks label.error,
+.blocks label.ok { 
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+}
